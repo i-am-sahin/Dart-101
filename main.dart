@@ -122,7 +122,21 @@ main() {
 
   //SET : won't print Duplicate values & same similer to Lists
 
+  /*
   var set1 = {15, 45, 114, 866, 24, 6244, 8, 4, 81, 48, 8, 15};
   print(set1);
   print(set1.runtimeType);
+  */
+
+  //Maps --> Key value Pair
+
+  var map = {"name": "Sahin", "city": "Kolkata", "state": "WB"};
+  print(map);
+  print(map.runtimeType);
+  print(map.keys);
+
+  Map<int, String> map2 = {10: "Mobile", 20: "Laptop", 30: "PC"};
+  print(map2.runtimeType);
+  print(map.containsKey("name"));
+  print(map['name']);
 }
