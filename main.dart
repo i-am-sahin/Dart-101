@@ -88,4 +88,33 @@ main() {
 
   print(rawStr.split(" ")); // Split the string behalf of some parameter/partern
   */
+
+  //Lists
+/*
+  var list = ["Hello", 25, 25.235, true];
+  print(list);
+  print(list.runtimeType);
+
+  List<String> lst = [];
+  print(lst);
+  print(lst.runtimeType);
+  */
+
+  var lst1 = [15, 45, 114, 866, 24, 6244, 8, 4, 81, 48, 8];
+  print(lst1[5]);
+
+  var lst2 = [
+    10,
+    225,
+    ...lst1
+  ]; //Sperade OPerator : using this we can fatch lst 1 list data
+  print(lst2);
+  print(lst2.length);
+  print(lst2.isEmpty);
+  print(lst2.isNotEmpty);
+  print(lst2.first);
+  print(lst2.last);
+  print(lst2.last);
+  print(lst2.reversed);
+  print(lst2.indexed);
 }
