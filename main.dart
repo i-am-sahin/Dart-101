@@ -98,7 +98,7 @@ main() {
   List<String> lst = [];
   print(lst);
   print(lst.runtimeType);
-  */
+  
 
   var lst1 = [15, 45, 114, 866, 24, 6244, 8, 4, 81, 48, 8];
   print(lst1[5]);
@@ -117,4 +117,12 @@ main() {
   print(lst2.last);
   print(lst2.reversed);
   print(lst2.indexed);
+
+  */
+
+  //SET : won't print Duplicate values & same similer to Lists
+
+  var set1 = {15, 45, 114, 866, 24, 6244, 8, 4, 81, 48, 8, 15};
+  print(set1);
+  print(set1.runtimeType);
 }
