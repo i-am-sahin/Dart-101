@@ -25,7 +25,7 @@ main() {
   //Operators
 
   //Arithmatic Operators : + , - , * , / , %
-
+  /*
   int num1 = 10;
   int num2 = 20;
   print(num1 + num2); //Add two Numbers
@@ -43,5 +43,49 @@ main() {
 
   print(a--); //First print the number then Decrement the number by 1
   print(a);
-  print(--a); //First Decrement the number by 1 then print the number
+  print(--a); //First Decrement the number by 1 then print the number.
+
+*/
+  //String
+/*
+  String name = "Sahin\"";
+  print(name);
+
+  String multiLineStr = """
+  Hello
+  Sahin
+  this side!
+""";
+  print(multiLineStr);
+  
+
+  var num1 = 10;
+  var num2 = 2;
+  var num3 = num1 + num2;
+  print(
+      "The sum of $num1 and $num2 is : $num3"); //$ is used for printing the value of variable in the inverted qutations.
+
+  print("The sum of $num1 and $num2 is : ${num1 + num2}");
+
+  String YT = "Neet Roots";
+  print("The name of YT channel is " + YT);
+
+  print("The name of YT channel is " + YT.toUpperCase());
+  print("The name of YT channel is " + YT.toLowerCase());
+
+  print(YT.contains("Nee"));
+  
+  String normal = "    this is normal \ Str";
+  print(normal);
+  String rawStr = r"this is raw \ Str";
+  print(rawStr);
+
+  print(normal.length); // count spaces also;
+
+  print(normal.isEmpty);
+  print(normal.isNotEmpty);
+  print(normal.trim()); //cut the unnessery spaces
+
+  print(rawStr.split(" ")); // Split the string behalf of some parameter/partern
+  */
 }
